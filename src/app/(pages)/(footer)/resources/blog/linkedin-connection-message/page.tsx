@@ -158,7 +158,8 @@ export default function LinkedInConnectionMessageArticlePage() {
                                     width={40}
                                     height={40}
                                     className="w-10 h-10 rounded-full object-cover shrink-0"
-                                />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                                 <div>
                                     <div className="text-xs sm:text-sm font-bold text-[#181d13]">
                                         Rohit Verma
@@ -173,13 +174,14 @@ export default function LinkedInConnectionMessageArticlePage() {
                         {/* Right Graphic */}
                         <div className="md:col-span-5 flex items-center justify-center">
                             <Image
-                                src="/footer/resources/blog/Article2.png"
+                                src="/footer/resources/blog/Article2.webp"
                                 alt="15 LinkedIn Connection Message Templates"
                                 width={400}
                                 height={320}
                                 className="w-full h-auto object-contain max-h-[280px]"
                                 priority
-                            />
+                  sizes="(max-width: 768px) 100vw, 800px"
+                />
                         </div>
                     </div>
                 </div>

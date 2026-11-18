@@ -20,19 +20,19 @@ export interface Section2TemplateProps {
 export const defaultLogos: LogoItem[] = [
     {
         name: "TechTalent",
-        imageSrc: "/footer/solutions/section2/Chip.png",
+        imageSrc: "/footer/solutions/section2/Chip.webp",
     },
     {
         name: "VentureSearch",
-        imageSrc: "/footer/solutions/section2/Rocket.png",
+        imageSrc: "/footer/solutions/section2/Rocket.webp",
     },
     {
         name: "ApexHiring",
-        imageSrc: "/footer/solutions/section2/TrendUp.png",
+        imageSrc: "/footer/solutions/section2/TrendUp.webp",
     },
     {
         name: "PipelineRecruit",
-        imageSrc: "/footer/solutions/section2/Integrations.png",
+        imageSrc: "/footer/solutions/section2/Integrations.webp",
     },
     {
         name: "TalentScale",
@@ -85,7 +85,8 @@ export default function Section2Template({
                                         width={24}
                                         height={24}
                                         className="w-5 h-5 sm:w-6 sm:h-6 object-contain shrink-0"
-                                    />
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                 ) : logo.icon ? (
                                     React.createElement(logo.icon, {
                                         className: "w-5 h-5 text-[#416900] shrink-0 stroke-[2.2]",

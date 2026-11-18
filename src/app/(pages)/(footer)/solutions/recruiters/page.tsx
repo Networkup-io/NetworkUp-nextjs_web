@@ -266,13 +266,14 @@ export default function RecruitersPage() {
                         <div className="lg:col-span-5 w-full flex items-center justify-center py-2">
                             <div className="w-full flex items-center justify-center">
                                 <Image
-                                    src="/footer/solutions/2.png"
+                                    src="/footer/solutions/2.webp"
                                     alt="Empower Your Recruiters to Build a Stronger Talent Pipeline on LinkedIn"
                                     width={2326}
                                     height={2776}
                                     priority
                                     className="w-full h-auto max-w-[460px] lg:max-w-[620px] max-h-[560px] object-contain drop-shadow-sm transition-transform duration-300 hover:scale-[1.01]"
-                                />
+                  sizes="(max-width: 768px) 100vw, 600px"
+                />
                             </div>
                         </div>
 

@@ -19,12 +19,13 @@ export default function Section4() {
                         {/* Icon Box */}
                         <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
                             <Image
-                                src="/footer/product/feature/Teams.png"
+                                src="/footer/product/feature/Teams.webp"
                                 alt="Smart Prospecting"
                                 width={70}
                                 height={70}
                                 className="w-full h-full object-contain rounded-2xl"
-                            />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                         </div>
 
                         {/* Heading */}
@@ -47,12 +48,13 @@ export default function Section4() {
                         className="w-full md:w-[49%] md:max-w-[49%] h-auto flex items-center justify-center order-1 lg:order-2"
                     >
                         <Image
-                            src="/footer/product/feature/Leads.png"
+                            src="/footer/product/feature/Leads.webp"
                             alt="Discover"
                             width={1100}
                             height={1100}
                             className="w-full h-auto object-contain"
-                        />
+                  sizes="(max-width: 768px) 100vw, 600px"
+                />
                     </motion.div>
                 </div>
             </div>

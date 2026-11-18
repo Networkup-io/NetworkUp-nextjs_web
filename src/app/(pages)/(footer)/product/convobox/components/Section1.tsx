@@ -106,12 +106,13 @@ export default function Section1() {
                 {/* Right Column (57%) - Interactive Ecosystem Orbit Graphic */}
                 <div className="w-full lg:w-[57%] flex items-center justify-center relative py-6 sm:py-8 lg:py-2">
                     <Image
-                        src="/footer/product/convobox/Right_Graphic_Area.png"
+                        src="/footer/product/convobox/Right_Graphic_Area.webp"
                         alt="ConvoBox Inbox"
                         width={1000}
                         height={1100}
                         className="w-full max-w-[90%] h-auto object-contain transition-transform duration-300 hover:scale-[1.01]"
-                    />
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                />
                 </div>
             </div>
         </section>

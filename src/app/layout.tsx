@@ -43,6 +43,7 @@ const neueMontreal = localFont({
     },
   ],
   variable: "--font-neue-montreal",
+  display: "swap",
 });
 
 const comfortaa = localFont({
@@ -64,6 +65,7 @@ const comfortaa = localFont({
     },
   ],
   variable: "--font-comfortaa",
+  display: "swap",
 });
 
 export const metadata: Metadata = {

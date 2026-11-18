@@ -7,28 +7,28 @@ export default function Section5() {
     const steps = [
         {
             number: "01",
-            img: "/footer/product/convobox/PieCharty.png",
+            img: "/footer/product/convobox/PieCharty.webp",
             title: "Understand",
             description:
                 "The AI reviews your available conversation history, prior outreach, and prospect metadata to build context.",
         },
         {
             number: "02",
-            img: "/footer/product/convobox/Intelluct.png",
+            img: "/footer/product/convobox/Intelluct.webp",
             title: "Generate",
             description:
                 "A relevant, natural-sounding follow-up message is drafted instantly, avoiding generic template language.",
         },
         {
             number: "03",
-            img: "/footer/product/convobox/Notes.png",
+            img: "/footer/product/convobox/Notes.webp",
             title: "Review",
             description:
                 "You remain in the driver's seat. Review the drafted text, make edits, or use one-click tools to adjust tone and length.",
         },
         {
             number: "04",
-            img: "/footer/product/convobox/PuzzleGo.png",
+            img: "/footer/product/convobox/PuzzleGo.webp",
             title: "Send or Schedule",
             description:
                 "Dispatch the message immediately or schedule it for the optimal time using the pacing interface.",
@@ -100,7 +100,8 @@ export default function Section5() {
                                         width={70}
                                         height={70}
                                         className="w-full h-full object-contain rounded-2xl"
-                                    />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                                 </div>
 
                                 {/* Title */}

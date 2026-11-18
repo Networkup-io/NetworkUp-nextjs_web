@@ -7,14 +7,14 @@ import Documentation, { DocItem } from "../Documentation";
 
 export const metadata: Metadata = {
     title: { absolute: "API & Integrations Help | NetworkUp Help Center" },
-    description: "Learn how to configure supported NetworkUp integrations and API workflows. Review authentication, API keys and webhook instructions available in them.",
+    description: "Find NetworkUp guidance on available API access, integration options and connecting third-party tools supported by the platform.",
     keywords: ["api key setup", "webhook integration", "crm sync help", "api authentication", "rest api troubleshooting"],
     alternates: {
         canonical: "https://networkup.io/resources/help-center/api-integrations"
     },
     openGraph: {
         title: "API & Integrations Help | NetworkUp Help Center",
-        description: "Learn how to configure supported NetworkUp integrations and API workflows. Review authentication, API keys and webhook instructions available in them.",
+        description: "Find NetworkUp guidance on available API access, integration options and connecting third-party tools supported by the platform.",
         url: "https://networkup.io/resources/help-center/api-integrations",
         siteName: "NetworkUp.io",
         locale: "en_US",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "API & Integrations Help | NetworkUp Help Center",
-        description: "Learn how to configure supported NetworkUp integrations and API workflows. Review authentication, API keys and webhook instructions available in them.",
+        description: "Find NetworkUp guidance on available API access, integration options and connecting third-party tools supported by the platform.",
         images: ["https://networkup.io/seo/og-about.jpg"]
     },
     robots: {

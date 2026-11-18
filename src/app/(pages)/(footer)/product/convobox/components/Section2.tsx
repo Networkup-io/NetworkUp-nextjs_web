@@ -49,12 +49,13 @@ export default function Section2() {
                 {/* Right Column - Picture container (Ready for user image upload) */}
                 <div className="w-full lg:w-[50%] flex items-center justify-center">
                     <Image
-                        src="/footer/product/convobox/Inbox-all.png"
+                        src="/footer/product/convobox/Inbox-all.webp"
                         alt="ConvoBox Inbox"
                         width={1000}
                         height={1100}
                         className="w-full max-w-[90%] h-auto object-contain transition-transform duration-300 hover:scale-[1.01]"
-                    />
+                  sizes="(max-width: 768px) 100vw, 700px"
+                />
                 </div>
 
             </div>

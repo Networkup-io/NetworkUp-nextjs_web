@@ -902,7 +902,7 @@ export default function Message({ onClose, onNavigateToHome }: MessageProps) {
                         >
                             {msg.sender === "system" && !msg.customType && (
                                 <img
-                                    src="/chatbot/AI-black.png"
+                                    src="/chatbot/AI-black.webp"
                                     alt="AI Assistant"
                                     className="w-8 h-8 m-2 rounded-l-full object-cover shrink-0 select-none"
                                 />
@@ -939,7 +939,7 @@ export default function Message({ onClose, onNavigateToHome }: MessageProps) {
                     {isTyping && (
                         <div className="flex gap-2 max-w-[85%] self-start flex-row">
                             <img
-                                src="/chatbot/AI-black.png"
+                                src="/chatbot/AI-black.webp"
                                 alt="AI Assistant"
                                 className="w-8 h-8 m-2 rounded-l-full object-cover shrink-0 select-none"
                             />

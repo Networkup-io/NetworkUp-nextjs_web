@@ -128,12 +128,13 @@ export default function GuidesClient() {
                     <div className="lg:col-span-6 flex items-center justify-center w-full">
                         <div className="relative w-full h-[260px] sm:h-[360px] md:h-[440px] lg:h-[500px]">
                             <Image
-                                src="/footer/resources/product-manual/01.png"
+                                src="/footer/resources/product-manual/01.webp"
                                 alt="Connect Your Accounts"
                                 fill
                                 className="object-contain object-center"
                                 priority
-                            />
+                  sizes="(max-width: 768px) 100vw, 700px"
+                />
                         </div>
                     </div>
                 </motion.div>
@@ -151,11 +152,12 @@ export default function GuidesClient() {
                         <div className="w-full rounded-2xl sm:rounded-[28px] lg:rounded-[36px] border border-[#d8e0d2] bg-white p-4 sm:p-7 md:p-8 lg:p-10 shadow-xs">
                             <div className="relative w-full aspect-[16/11] rounded-xl sm:rounded-2xl overflow-hidden">
                                 <Image
-                                    src="/footer/resources/product-manual/db.png"
+                                    src="/footer/resources/product-manual/db.webp"
                                     alt="Discover Prospects"
                                     fill
                                     className="object-contain"
-                                />
+                  sizes="(max-width: 768px) 100vw, 700px"
+                />
                             </div>
                         </div>
                     </div>
@@ -269,11 +271,12 @@ export default function GuidesClient() {
                     <div className="lg:col-span-6 flex items-center justify-center w-full">
                         <div className="relative w-full h-[260px] sm:h-[360px] md:h-[440px] lg:h-[500px]">
                             <Image
-                                src="/footer/resources/product-manual/03.png"
+                                src="/footer/resources/product-manual/03.webp"
                                 alt="Set Up Automations"
                                 fill
                                 className="object-contain object-center"
-                            />
+                  sizes="(max-width: 768px) 100vw, 700px"
+                />
                         </div>
                     </div>
                 </motion.div>
@@ -291,11 +294,12 @@ export default function GuidesClient() {
                         <div className="w-full rounded-2xl sm:rounded-[28px] lg:rounded-[36px] border border-[#d8e0d2] bg-white p-4 sm:p-7 md:p-8 lg:p-10 shadow-xs">
                             <div className="relative w-full aspect-[16/11] rounded-xl sm:rounded-2xl overflow-hidden">
                                 <Image
-                                    src="/footer/resources/product-manual/04.png"
+                                    src="/footer/resources/product-manual/04.webp"
                                     alt="Analyze & Scale"
                                     fill
                                     className="object-contain"
-                                />
+                  sizes="(max-width: 768px) 100vw, 700px"
+                />
                             </div>
                         </div>
                     </div>
@@ -400,11 +404,12 @@ export default function GuidesClient() {
                     <div className="lg:col-span-6 flex items-center justify-center w-full">
                         <div className="relative w-full h-[260px] sm:h-[360px] md:h-[440px] lg:h-[500px]">
                             <Image
-                                src="/footer/resources/product-manual/05.png"
+                                src="/footer/resources/product-manual/05.webp"
                                 alt="Import Leads"
                                 fill
                                 className="object-contain object-center"
-                            />
+                  sizes="(max-width: 768px) 100vw, 700px"
+                />
                         </div>
                     </div>
                 </motion.div>
@@ -422,11 +427,12 @@ export default function GuidesClient() {
                         <div className="w-full rounded-2xl sm:rounded-[28px] lg:rounded-[36px] border border-[#d8e0d2] bg-white p-4 sm:p-7 md:p-8 lg:p-10 shadow-xs">
                             <div className="relative w-full aspect-[16/11] rounded-xl sm:rounded-2xl overflow-hidden">
                                 <Image
-                                    src="/footer/resources/product-manual/db.png"
+                                    src="/footer/resources/product-manual/db.webp"
                                     alt="Database"
                                     fill
                                     className="object-contain"
-                                />
+                  sizes="(max-width: 768px) 100vw, 700px"
+                />
                             </div>
                         </div>
                     </div>
@@ -531,11 +537,12 @@ export default function GuidesClient() {
                     <div className="lg:col-span-6 flex items-center justify-center w-full">
                         <div className="relative w-full h-[260px] sm:h-[360px] md:h-[440px] lg:h-[500px]">
                             <Image
-                                src="/footer/resources/product-manual/07.png"
+                                src="/footer/resources/product-manual/07.webp"
                                 alt="Campaign Builder"
                                 fill
                                 className="object-contain object-center"
-                            />
+                  sizes="(max-width: 768px) 100vw, 700px"
+                />
                         </div>
                     </div>
                 </motion.div>
@@ -553,11 +560,12 @@ export default function GuidesClient() {
                         <div className="w-full rounded-2xl sm:rounded-[28px] lg:rounded-[36px] border border-[#d8e0d2] bg-white p-4 sm:p-7 md:p-8 lg:p-10 shadow-xs">
                             <div className="relative w-full aspect-[16/11] rounded-xl sm:rounded-2xl overflow-hidden">
                                 <Image
-                                    src="/footer/resources/product-manual/Ai.png"
+                                    src="/footer/resources/product-manual/Ai.webp"
                                     alt="AI Writer"
                                     fill
                                     className="object-contain"
-                                />
+                  sizes="(max-width: 768px) 100vw, 700px"
+                />
                             </div>
                         </div>
                     </div>

@@ -64,7 +64,9 @@ export default async function SubscriptionLayout({ children }: { children: React
                 <div className="mx-auto max-w-7xl flex items-center justify-between">
                     {/* Brand Logo */}
                     <Link href="/" className="flex items-center gap-2 select-none">
-                        <Image src="/brand/Logo.svg" alt="NetworkUp Logo" width={32} height={32} style={{ height: "auto" }} />
+                        <Image src="/brand/Logo.svg" alt="NetworkUp Logo" width={32} height={32} style={{ height: "auto" }}
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                         <span className="text-white font-bold text-lg font-comfortaa">NetworkUp</span>
                     </Link>
 

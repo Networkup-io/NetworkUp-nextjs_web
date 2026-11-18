@@ -69,21 +69,21 @@ export const defaultTabs = [
 
 export const defaultFeatureList: SourcingFeatureItem[] = [
     {
-        iconSrc: "/footer/solutions/section2/2/lock.png",
+        iconSrc: "/footer/solutions/section2/2/lock.webp",
         iconType: "lock",
         title: "Candidate Ownership Rules:",
         description:
             "Assign prospects to specific recruiters and prevent duplicate outreach.",
     },
     {
-        iconSrc: "/footer/solutions/section2/2/integrate.png",
+        iconSrc: "/footer/solutions/section2/2/integrate.webp",
         iconType: "share",
         title: "Shared Talent Visibilities:",
         description:
             "Give recruiters visibility into candidate status, conversations, and outreach history.",
     },
     {
-        iconSrc: "/footer/solutions/section2/2/id.png",
+        iconSrc: "/footer/solutions/section2/2/id.webp",
         iconType: "role",
         title: "Role-Based Access",
         description:
@@ -136,7 +136,7 @@ export const defaultSection124Props: Section124TemplateProps = {
 
     mockupHeaderTitle: "Active Sourcing Campaigns",
     mockupHeaderBadge: "Live Real-Time",
-    mockupHeaderIconSrc: "/footer/solutions/section2/2/search.png",
+    mockupHeaderIconSrc: "/footer/solutions/section2/2/search.webp",
     metric1DefaultLabel: "Candidates",
     metric2DefaultLabel: "Replies",
     metric3DefaultLabel: "Screens",
@@ -190,11 +190,11 @@ export default function Section124Template(props: Section124TemplateProps) {
         const src =
             item.iconSrc ||
             (item.iconType === "lock"
-                ? "/footer/solutions/section2/2/lock.png"
+                ? "/footer/solutions/section2/2/lock.webp"
                 : item.iconType === "share"
-                    ? "/footer/solutions/section2/2/integrate.png"
+                    ? "/footer/solutions/section2/2/integrate.webp"
                     : item.iconType === "role"
-                        ? "/footer/solutions/section2/2/id.png"
+                        ? "/footer/solutions/section2/2/id.webp"
                         : null);
 
         if (src) {
@@ -205,6 +205,7 @@ export default function Section124Template(props: Section124TemplateProps) {
                     width={16}
                     height={16}
                     className="w-3.5 h-3.5 object-contain"
+                  sizes="(max-width: 768px) 32px, 48px"
                 />
             );
         }
@@ -336,7 +337,8 @@ export default function Section124Template(props: Section124TemplateProps) {
                                                 width={16}
                                                 height={16}
                                                 className="w-4 h-4 object-contain inline mr-1"
-                                            />
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                         ) : null}
                                         <h4 className="font-bold text-xs sm:text-sm md:text-base text-[#000400]">
                                             {mockupHeaderTitle}

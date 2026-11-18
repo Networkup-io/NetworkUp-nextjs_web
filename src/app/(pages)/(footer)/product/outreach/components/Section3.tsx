@@ -81,12 +81,13 @@ export default function Section3() {
                         {/* Icon Box */}
                         <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center mb-4 sm:mb-6 ">
                             <Image
-                                src="/footer/product/outreach/Shakes.png"
+                                src="/footer/product/outreach/Shakes.webp"
                                 alt="Personalized Connection"
                                 width={64}
                                 height={64}
                                 className="object-contain rounded-full"
-                            />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                         </div>
 
                         <h2 className="text-3xl sm:text-4xl font-bold text-[#191c1e] tracking-tight leading-tight mb-4">

@@ -150,7 +150,8 @@ export default function AIPersonalizationArticlePage() {
                                     width={40}
                                     height={40}
                                     className="w-10 h-10 rounded-full object-cover shrink-0"
-                                />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                                 <div>
                                     <div className="text-xs sm:text-sm font-bold text-[#181d13]">
                                         Vanshi Singh
@@ -165,13 +166,14 @@ export default function AIPersonalizationArticlePage() {
                         {/* Right Graphic */}
                         <div className="md:col-span-5 flex items-center justify-center">
                             <Image
-                                src="/footer/resources/blog/Article4.png"
+                                src="/footer/resources/blog/Article4.webp"
                                 alt="How AI Personalization Can 3x Your Reply Rates"
                                 width={500}
                                 height={380}
                                 className="w-full h-auto object-contain max-h-[380px]"
                                 priority
-                            />
+                  sizes="(max-width: 768px) 100vw, 800px"
+                />
                         </div>
                     </div>
                 </div>
@@ -208,7 +210,9 @@ export default function AIPersonalizationArticlePage() {
                         {/* Traditional Outreach */}
                         <div className="bg-[#f1f6e4] border border-[#8f8f8f]/15 rounded-2xl p-5 sm:p-6 shadow-xs flex flex-col justify-between">
                             <div className="flex items-center gap-2">
-                                <Image src="/footer/resources/blog/AI_Personalization/Red.png" width={24} height={24} alt="Image" className="w-6 h-6 rounded-full object-cover shrink-0" />
+                                <Image src="/footer/resources/blog/AI_Personalization/Red.webp" width={24} height={24} alt="Image" className="w-6 h-6 rounded-full object-cover shrink-0"
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                 <span className="text-xs sm:text-sm font-bold text-[#dc2626]">
                                     Traditional Outreach
                                 </span>
@@ -221,7 +225,9 @@ export default function AIPersonalizationArticlePage() {
                         {/* AI-Personalized Outreach */}
                         <div className="bg-[#f1f6e4] border border-[#8f8f8f]/15 rounded-2xl p-5 sm:p-6 shadow-xs flex flex-col justify-between">
                             <div className="flex items-center gap-2">
-                                <Image src="/footer/resources/blog/AI_Personalization/Tick.png" width={24} height={24} alt="Image" className="w-6 h-6 rounded-full object-cover shrink-0" />
+                                <Image src="/footer/resources/blog/AI_Personalization/Tick.webp" width={24} height={24} alt="Image" className="w-6 h-6 rounded-full object-cover shrink-0"
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                 <span className="text-xs sm:text-sm font-bold text-[#181d13]">
                                     AI-Personalized Outreach
                                 </span>
@@ -247,7 +253,9 @@ export default function AIPersonalizationArticlePage() {
                         <div className="bg-[#f1f6e4] border border-[#8f8f8f]/15 rounded-2xl p-5 sm:p-6 shadow-xs flex flex-col justify-between">
                             <div>
                                 <div className="flex items-center gap-2 text-xs sm:text-sm font-bold text-[#dc2626] mb-3">
-                                    <Image src="/footer/resources/blog/AI_Personalization/Red.png" width={24} height={24} alt="Image" className="w-6 h-6 rounded-full object-cover shrink-0" />
+                                    <Image src="/footer/resources/blog/AI_Personalization/Red.webp" width={24} height={24} alt="Image" className="w-6 h-6 rounded-full object-cover shrink-0"
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                     <span>Generic Message</span>
                                 </div>
                                 <div className="bg-[#f9fafb] rounded-xl p-4 border border-[#f3f4f6] shadow-2xs">
@@ -262,7 +270,9 @@ export default function AIPersonalizationArticlePage() {
                         <div className="bg-[#f1f6e4] border border-[#8f8f8f]/15 rounded-2xl p-5 sm:p-6 shadow-xs flex flex-col justify-between">
                             <div>
                                 <div className="flex items-center gap-2 text-xs sm:text-sm font-bold text-[#181d13] mb-3">
-                                    <Image src="/footer/resources/blog/AI_Personalization/Tick.png" width={24} height={24} alt="Image" className="w-6 h-6 rounded-full object-cover shrink-0" />
+                                    <Image src="/footer/resources/blog/AI_Personalization/Tick.webp" width={24} height={24} alt="Image" className="w-6 h-6 rounded-full object-cover shrink-0"
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                     <span>Personalized Message</span>
                                 </div>
                                 <div className="bg-[#f9fafb] rounded-xl p-4 border border-[#e5e7eb] shadow-2xs">
@@ -411,7 +421,8 @@ export default function AIPersonalizationArticlePage() {
                                     width={40}
                                     height={40}
                                     className="w-10 h-10 rounded-full object-cover shrink-0"
-                                />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                                 <div>
                                     <div className="text-sm sm:text-base font-bold text-[#181d13]">
                                         Sarah Jenkins

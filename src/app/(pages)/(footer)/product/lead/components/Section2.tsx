@@ -18,11 +18,12 @@ export default function Section2() {
                 className="w-full max-w-5xl h-auto rounded-3xl p-6 sm:p-10 md:p-14 lg:p-16 border-2 border-[#c3c8bb] bg-white flex items-center justify-center shadow-sm"
             >
                 <Image
-                    src="/footer/product/feature/DiscoverPreview.png"
+                    src="/footer/product/feature/DiscoverPreview.webp"
                     alt="Discover"
                     width={2000}
                     height={2000}
                     className="w-full h-auto object-contain"
+                  sizes="(max-width: 768px) 100vw, 1200px"
                 />
             </motion.div>
 

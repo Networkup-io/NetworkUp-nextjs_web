@@ -215,7 +215,7 @@ export default function MarketingTeamPage() {
                     "2-way CRM & MAP attribution sync",
                     "Built-In Account Safety Controls",
                 ]}
-                imageSrc="/footer/solutions/5.png"
+                imageSrc="/footer/solutions/5.webp"
                 imageAlt="Target the Right Accounts. Engage the Right Buyers. Turn Marketing Into Pipeline."
             />
 

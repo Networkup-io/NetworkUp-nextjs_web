@@ -147,11 +147,12 @@ export default function Section2() {
                 className="my-5 w-full lg:max-w-6xl"
             >
                 <Image
-                    src="/footer/product/campaigns/Campaigns.png"
+                    src="/footer/product/campaigns/Campaigns.webp"
                     alt="Campaigns"
                     width={2000}
                     height={2000}
                     className="w-full h-auto object-contain"
+                  sizes="(max-width: 768px) 100vw, 700px"
                 />
             </motion.div>
         </section>

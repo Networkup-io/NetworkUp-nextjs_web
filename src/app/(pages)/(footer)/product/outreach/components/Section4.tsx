@@ -82,12 +82,13 @@ export default function Section4() {
                     {/* Icon Box */}
                     <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 rounded-2xl flex items-center justify-center mb-2 sm:mb-4">
                         <Image
-                            src="/footer/product/feature/Replies.png"
+                            src="/footer/product/feature/Replies.webp"
                             alt="Automate Replies"
                             width={60}
                             height={60}
                             className="w-full h-full object-contain rounded-2xl"
-                        />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                     </div>
 
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-left text-[1f2937] leading-tight tracking-tight">

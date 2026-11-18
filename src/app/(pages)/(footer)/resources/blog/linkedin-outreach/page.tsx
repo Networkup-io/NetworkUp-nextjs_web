@@ -151,7 +151,8 @@ export default function LinkedInOutreachArticlePage() {
                                     width={40}
                                     height={40}
                                     className="w-10 h-10 rounded-full object-cover shrink-0"
-                                />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                                 <div>
                                     <div className="text-xs sm:text-sm font-bold text-[#181d13]">
                                         Ananya Sharma
@@ -166,13 +167,14 @@ export default function LinkedInOutreachArticlePage() {
                         {/* Right Graphic */}
                         <div className="md:col-span-5 flex items-center justify-center">
                             <Image
-                                src="/footer/resources/blog/Article1.png"
+                                src="/footer/resources/blog/Article1.webp"
                                 alt="AI LinkedIn Outreach 2027"
                                 width={400}
                                 height={320}
                                 className="w-full h-auto object-contain max-h-[280px]"
                                 priority
-                            />
+                  sizes="(max-width: 768px) 100vw, 800px"
+                />
                         </div>
                     </div>
                 </div>

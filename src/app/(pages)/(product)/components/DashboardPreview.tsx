@@ -98,7 +98,8 @@ export default function DashboardPreview() {
                         width={12}
                         height={12}
                         style={{ height: "auto" }}
-                      />
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                     </div>
                     <span className="text-sm font-bold font-[family-name:var(--font-comfortaa)] tracking-tight text-[#6CB531] flex items-center">
                       NetworkUp<span className="text-lime-400 font-normal tracking-[0.5px]">.io</span>
@@ -734,7 +735,9 @@ export default function DashboardPreview() {
                   }}
                   className="w-14 h-14 rounded-full bg-[#b0d297] flex items-center justify-center mx-auto mb-2 shadow-md shrink-0"
                 >
-                  <Image src="/product/dashboard/robot.png" alt="robot" width={28} height={28} className="stroke-[black]/50" />
+                  <Image src="/product/dashboard/robot.webp" alt="robot" width={28} height={28} className="stroke-[black]/50"
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                 </motion.div>
                 <h2 className="font-bold text-white text-lg text-center mb-0.5 leading-tight">Ask NetworkUp.io Anything</h2>
                 <h4 className="text-[#71946b] text-[10.5px] text-center max-w-[320px] mx-auto mb-3 leading-tight">Generate leads, optimize campaigns, or research any target account in seconds.</h4>

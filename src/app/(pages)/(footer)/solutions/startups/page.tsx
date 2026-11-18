@@ -261,7 +261,7 @@ export default function StartupsPage() {
                     "Rapid ICP message testing",
                     "Smart Shield™ account safety",
                 ]}
-                imageSrc="/footer/solutions/4.png"
+                imageSrc="/footer/solutions/4.webp"
                 imageAlt="Build Connections that Move Your Startup Forward"
             />
 

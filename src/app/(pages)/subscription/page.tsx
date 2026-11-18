@@ -133,7 +133,8 @@ export default function Pricing() {
                         width={70}
                         height={70}
                         style={{ height: "auto" }}
-                    />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                     <h1 className="mt-5 text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight mb-4">
                         Choose the plan that <span className="text-[#76e11b]">scales</span> with you
                     </h1>

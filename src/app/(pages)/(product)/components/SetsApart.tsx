@@ -7,22 +7,22 @@ import { IntegrationsIcon } from "@/app/homepage/assets/icons";
 
 const items = [
     {
-        icon: "/product/feature/Sparkles.png",
+        icon: "/product/feature/Sparkles.webp",
         title: "AI Campaign Optimizer",
         description: "Analyzes campaigns before launch and recommends improvements to maximize acceptance and reply rates using deep semantic modeling."
     },
     {
-        icon: "/product/feature/Relation.png",
+        icon: "/product/feature/Relation.webp",
         title: "Relationship Intelligence",
         description: "Understands prospect engagement, predicts buying intent and recommends the best next action based on historical patterns."
     },
     {
-        icon: "/product/feature/Integrate.png",
+        icon: "/product/feature/Integrate.webp",
         title: "Opportunity Center",
         description: "Automatically surfaces the highest-value prospects, ideal outreach windows and hidden sales opportunities across your entire funnel."
     },
     {
-        icon: "/product/feature/IncreaseTrend.png",
+        icon: "/product/feature/IncreaseTrend.webp",
         title: "Campaign Simulator",
         description: "Predict campaign performance before launch using AI insights and historical outreach data to ensure ROI on every single send."
     }

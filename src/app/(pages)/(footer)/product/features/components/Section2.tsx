@@ -40,12 +40,13 @@ export default function Section2() {
             transition={{ duration: 0.8, delay: 0.2 }}
         >
             <Image
-                src="/footer/product/feature/Dashboard.png"
+                src="/footer/product/feature/Dashboard.webp"
                 alt="Discover"
                 width={1600}
                 height={2000}
                 className="w-full h-auto object-contain"
-            />
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                />
         </motion.div>
     )
 }

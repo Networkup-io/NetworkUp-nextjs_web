@@ -97,13 +97,14 @@ export default function Workflow() {
                             {/* Dashboard Mockup Image */}
                             <div className="w-full px-4 pb-4">
                                 <Image
-                                    src="/product/workflow/Workspace.png"
+                                    src="/product/workflow/Workspace.webp"
                                     alt="Dashboard metrics showing load times, bounce rates, page views and sessions"
                                     width={1200}
                                     height={800}
                                     className="w-full h-auto rounded-xl object-top object-cover"
                                     priority
-                                />
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                />
                             </div>
                         </motion.div>
 

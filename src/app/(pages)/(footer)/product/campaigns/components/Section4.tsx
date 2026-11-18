@@ -76,12 +76,13 @@ export default function Section4() {
                     {/* Right Column: Campaign Builder */}
                     <div className="w-full lg:w-[59%] pt-20 lg:pt-[200px] flex items-center justify-center lg:justify-center">
                         <Image
-                            src="/footer/product/campaigns/Campaign_builder.png"
+                            src="/footer/product/campaigns/Campaign_builder.webp"
                             alt="Campaign Builder"
                             width={1800}
                             height={1800}
                             className="w-full h-auto object-contain"
-                        />
+                  sizes="(max-width: 768px) 100vw, 700px"
+                />
                     </div>
                 </div>
             </div>

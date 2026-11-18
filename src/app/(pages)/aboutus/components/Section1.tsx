@@ -7,7 +7,9 @@ export default function Section1() {
         <section className="bg-[#fafcf7] w-full max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
                 <div className="w-full lg:w-[45%] bg-transparent p-4 lg:p-10 flex justify-center">
-                    <Image src="/aboutus/AboutUs.png" alt="Building Relationship Image" width={600} height={400} className="w-full h-auto max-w-[600px]" />
+                    <Image src="/aboutus/AboutUs.webp" alt="Building Relationship Image" width={600} height={400} className="w-full h-auto max-w-[600px]"
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                />
                 </div>
                 <div className="w-full lg:w-[45%] p-5">
                     <div className="flex flex-col items-start gap-y-4">

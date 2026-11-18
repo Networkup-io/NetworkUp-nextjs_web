@@ -55,12 +55,13 @@ export default function Section4() {
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
                     <Image
-                        src="/footer/product/lead/LeadExtractor.png"
+                        src="/footer/product/lead/LeadExtractor.webp"
                         alt="Discover"
                         width={2000}
                         height={2000}
                         className="w-full h-auto object-contain"
-                    />
+                  sizes="(max-width: 768px) 100vw, 700px"
+                />
                 </motion.div>
             </div>
         </section>

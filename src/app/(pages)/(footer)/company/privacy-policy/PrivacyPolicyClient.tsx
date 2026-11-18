@@ -128,12 +128,13 @@ export default function PrivacyPolicyClient() {
                     <section className="space-y-4 pt-5 sm:pt-6">
                         <div className="flex items-center gap-3 border-b border-[#c0caae]/50">
                             <Image
-                                src="/footer/GlowSetting.png"
+                                src="/footer/GlowSetting.webp"
                                 alt="How We Use Your Information"
                                 width={20}
                                 height={20}
                                 className="w-5 h-5 object-contain shrink-0"
-                            />
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                             <h2 className="text-xl sm:text-2xl font-bold text-[#191c1e] tracking-tight">
                                 How We Use Your Information
                             </h2>
@@ -153,12 +154,13 @@ export default function PrivacyPolicyClient() {
 
                             <div className="bg-[#f7f9fb] border border-[#c0caae]/50 rounded-xl p-4 flex items-center gap-3 shadow-2xs">
                                 <Image
-                                    src="/footer/Bar.png"
+                                    src="/footer/Bar.webp"
                                     alt="Analytics"
                                     width={16}
                                     height={16}
                                     className="w-4 h-4 object-contain shrink-0"
-                                />
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                 <span className="text-xs sm:text-sm text-[#414a34] font-medium">
                                     Generate analytics and performance reports.
                                 </span>
@@ -166,12 +168,13 @@ export default function PrivacyPolicyClient() {
 
                             <div className="bg-[#f7f9fb] border border-[#c0caae]/50 rounded-xl p-4 flex items-center gap-3 shadow-2xs">
                                 <Image
-                                    src="/footer/Headphone.png"
+                                    src="/footer/Headphone.webp"
                                     alt="Customer Support"
                                     width={16}
                                     height={16}
                                     className="w-4 h-4 object-contain shrink-0"
-                                />
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                 <span className="text-xs sm:text-sm text-[#414a34] font-medium">
                                     Provide customer support and respond to inquiries.
                                 </span>
@@ -179,12 +182,13 @@ export default function PrivacyPolicyClient() {
 
                             <div className="bg-[#f7f9fb] border border-[#c0caae]/50 rounded-xl p-4 flex items-center gap-3 shadow-2xs">
                                 <Image
-                                    src="/footer/Protect.png"
+                                    src="/footer/Protect.webp"
                                     alt="Security"
                                     width={16}
                                     height={16}
                                     className="w-4 h-4 object-contain shrink-0"
-                                />
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                 <span className="text-xs sm:text-sm text-[#414a34] font-medium">
                                     Detect, prevent and address technical or security issues.
                                 </span>
@@ -241,12 +245,13 @@ export default function PrivacyPolicyClient() {
                     <section className="space-y-4 pt-5 sm:pt-6">
                         <div className="flex items-center gap-3 border-b border-[#c0caae]/50">
                             <Image
-                                src="/footer/Right.png"
+                                src="/footer/Right.webp"
                                 alt="Your Rights"
                                 width={20}
                                 height={20}
                                 className="w-5 h-5 object-contain shrink-0"
-                            />
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                             <h2 className="text-xl sm:text-2xl font-bold text-[#191c1e] tracking-tight">
                                 Your Rights
                             </h2>

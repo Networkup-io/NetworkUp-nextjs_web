@@ -166,12 +166,13 @@ export default function Contact() {
                             </div>
                         </div>
                         <Image
-                            src="/product/contact/Contact-Img.png"
+                            src="/product/contact/Contact-Img.webp"
                             alt="Contact"
                             width={600}
                             height={600}
                             className="w-full h-auto rounded-t-[2.25rem] block"
-                        />
+                  sizes="(max-width: 768px) 100vw, 600px"
+                />
 
                         <div className="p-6 sm:p-10 flex flex-col flex-grow justify-between -mt-12">
 

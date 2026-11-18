@@ -47,7 +47,7 @@ const featuredPost: BlogPost = {
         avatarImage: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&auto=format&fit=crop&q=80",
     },
     readTime: "8 min read",
-    image: "/footer/resources/blog/Article1.png",
+    image: "/footer/resources/blog/Article1.webp",
     featured: true,
 };
 
@@ -65,7 +65,7 @@ const latestPosts: BlogPost[] = [
             avatarImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80",
         },
         readTime: "7 min read",
-        image: "/footer/resources/blog/Article2.png",
+        image: "/footer/resources/blog/Article2.webp",
     },
     {
         id: "ideal-customer-profile",
@@ -80,7 +80,7 @@ const latestPosts: BlogPost[] = [
             avatarImage: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80",
         },
         readTime: "8 min read",
-        image: "/footer/resources/blog/Article3.png",
+        image: "/footer/resources/blog/Article3.webp",
     },
     {
         id: "ai-personalization",
@@ -95,7 +95,7 @@ const latestPosts: BlogPost[] = [
             avatarImage: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
         },
         readTime: "6 min read",
-        image: "/footer/resources/blog/Article4.png",
+        image: "/footer/resources/blog/Article4.webp",
     },
     {
         id: "outreach-playbook",
@@ -110,7 +110,7 @@ const latestPosts: BlogPost[] = [
             avatarImage: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80",
         },
         readTime: "10 min read",
-        image: "/footer/resources/blog/Article5.png",
+        image: "/footer/resources/blog/Article5.webp",
     },
 ];
 
@@ -225,7 +225,8 @@ export default function BlogClient() {
                                                         width={36}
                                                         height={36}
                                                         className="w-9 h-9 rounded-full object-cover shrink-0"
-                                                    />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                                                 ) : (
                                                     <div
                                                         className={`w-9 h-9 rounded-full ${featuredPost.author.avatarColor} text-white font-bold text-xs flex items-center justify-center shrink-0`}
@@ -263,7 +264,8 @@ export default function BlogClient() {
                                             height={380}
                                             className="w-full h-auto object-contain max-h-[340px]"
                                             priority
-                                        />
+                  sizes="(max-width: 768px) 100vw, 800px"
+                />
                                     </div>
                                 </div>
                             </motion.div>
@@ -323,7 +325,8 @@ export default function BlogClient() {
                                                                         width={28}
                                                                         height={28}
                                                                         className="w-7 h-7 rounded-full object-cover shrink-0"
-                                                                    />
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                                                 ) : (
                                                                     <div
                                                                         className={`w-7 h-7 rounded-full ${post.author.avatarColor} text-white font-bold text-[10px] flex items-center justify-center shrink-0`}
@@ -359,7 +362,8 @@ export default function BlogClient() {
                                                             width={300}
                                                             height={210}
                                                             className="w-full h-auto object-contain max-h-[220px] sm:max-h-[240px]"
-                                                        />
+                  sizes="(max-width: 768px) 100vw, 800px"
+                />
                                                     </div>
                                                 </div>
                                             </div>

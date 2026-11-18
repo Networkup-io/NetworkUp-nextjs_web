@@ -16,7 +16,7 @@ const features = [
         description: "AI filters that identify high-intent leads based on real-time professional signals."
     },
     {
-        icon: "/product/feature/Inbox.png",
+        icon: "/product/feature/Inbox.webp",
         title: "Unified Inbox",
         description: "Manage every LinkedIn conversation across multiple accounts in one central view."
     },
@@ -26,12 +26,12 @@ const features = [
         description: "Drag-and-drop workflow sequences with intelligent branching logic and delays."
     },
     {
-        icon: "/product/feature/BarChart.png",
+        icon: "/product/feature/BarChart.webp",
         title: "Campaign Analytics",
         description: "Deep-dive metrics on conversion rates, engagement, and team performance."
     },
     {
-        icon: "/product/feature/Relationship.png",
+        icon: "/product/feature/Relationship.webp",
         title: "Relationship Intel",
         description: "Contextual insights about your leads before you ever hit send."
     },
@@ -41,12 +41,12 @@ const features = [
         description: "Automatically verify emails and phone numbers for your ideal targets."
     },
     {
-        icon: "/product/feature/Integration.png",
+        icon: "/product/feature/Integration.webp",
         title: "Integrations",
         description: "Native sync with HubSpot, Salesforce, and 2,000+ apps via Zapier."
     },
     {
-        icon: "/product/feature/Security.png",
+        icon: "/product/feature/Security.webp",
         title: "Account Protection",
         description: "Proprietary safety systems to keep your LinkedIn account secure and active."
     }

@@ -270,7 +270,7 @@ export default function AgenciesPage() {
                     "Client Workspace Organization",
                     "AI-Powered Personalization",
                 ]}
-                imageSrc="/footer/solutions/3.png"
+                imageSrc="/footer/solutions/3.webp"
                 imageAlt="A Smarter Way to Grow Your Agency on LinkedIn"
             />
 

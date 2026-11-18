@@ -68,12 +68,13 @@ export default function Section4() {
                         className="w-full md:w-[49%] md:max-w-[49%] h-auto flex items-center justify-center order-1 lg:order-2"
                     >
                         <Image
-                            src="/footer/product/feature/Leads.png"
+                            src="/footer/product/feature/Leads.webp"
                             alt="Discover"
                             width={1100}
                             height={1100}
                             className="w-full h-auto object-contain"
-                        />
+                  sizes="(max-width: 768px) 100vw, 700px"
+                />
                     </motion.div>
                 </div>
             </div>

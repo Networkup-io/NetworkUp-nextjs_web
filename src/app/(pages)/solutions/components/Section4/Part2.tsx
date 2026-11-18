@@ -23,11 +23,12 @@ export default function Part2() {
                 className="flex flex-col items-center justify-center gap-y-2"
             >
                 <Image
-                    src="/solution/Search.png"
+                    src="/solution/Search.webp"
                     alt="Find Leads"
                     width={50}
                     height={50}
                     className="rounded-lg object-cover"
+                  sizes="(max-width: 768px) 48px, 96px"
                 />
                 <span className="text-xs font-bold text-black">Find Leads</span>
             </motion.div>
@@ -48,11 +49,12 @@ export default function Part2() {
                 className="flex flex-col items-center justify-center gap-y-2"
             >
                 <Image
-                    src="/solution/Notes.png"
+                    src="/solution/Notes.webp"
                     alt="Add to List"
                     width={50}
                     height={50}
                     className="rounded-lg object-cover"
+                  sizes="(max-width: 768px) 48px, 96px"
                 />
                 <span className="text-xs font-bold text-black">Add to List</span>
             </motion.div>
@@ -73,11 +75,12 @@ export default function Part2() {
                 className="flex flex-col items-center justify-center gap-y-2"
             >
                 <Image
-                    src="/solution/Rocket.png"
+                    src="/solution/Rocket.webp"
                     alt="Send Outreach"
                     width={50}
                     height={50}
                     className="rounded-lg object-cover"
+                  sizes="(max-width: 768px) 48px, 96px"
                 />
                 <span className="text-xs font-bold text-black">Send Outreach</span>
             </motion.div>

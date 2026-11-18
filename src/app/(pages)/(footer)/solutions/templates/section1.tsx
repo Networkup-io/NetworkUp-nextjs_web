@@ -66,7 +66,7 @@ export const defaultSection1Props: Section1TemplateProps = {
         "Multi-Account Management",
     ],
 
-    imageSrc: "/footer/solutions/1.png",
+    imageSrc: "/footer/solutions/1.webp",
     imageAlt: "Turn LinkedIn Into Your Sales Team’s Growth Engine",
 };
 
@@ -256,7 +256,8 @@ export default function Section1Template(props: Section1TemplateProps) {
                                     priority={imagePriority}
                                     className={`w-full h-auto max-w-[620px] object-contain drop-shadow-sm transition-transform duration-300 hover:scale-[1.01] ${imageClassName || ""
                                         }`}
-                                />
+                  sizes="(max-width: 768px) 100vw, 1200px"
+                />
                             </div>
                         ) : null}
                     </motion.div>

@@ -52,7 +52,8 @@ export default function Navbar() {
                             width={38}
                             height={38}
                             style={{ height: "auto" }}
-                        />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                         <span className="text-xl lg:text-2xl font-bold font-[family-name:var(--font-comfortaa)] scale-105 text-[#6CB531]">
                             NetworkUp<span className="text-[#6CB531] font-base font-normal tracking-tight">.io</span>
                         </span>

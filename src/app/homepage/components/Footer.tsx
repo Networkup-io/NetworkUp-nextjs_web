@@ -61,19 +61,19 @@ const models = [
 
 const flowChart = [
     {
-        icon: "/footer/Search.png",
+        icon: "/footer/Search.webp",
         title: "Find Leads",
     },
     {
-        icon: "/footer/Send.png",
+        icon: "/footer/Send.webp",
         title: "Create Campaigns",
     },
     {
-        icon: "/footer/Message.png",
+        icon: "/footer/Message.webp",
         title: "Start Conversations",
     },
     {
-        icon: "/footer/BarGraph.png",
+        icon: "/footer/BarGraph.webp",
         title: "Drive Growth",
     }
 ];
@@ -107,7 +107,8 @@ export default function Footer() {
                                     width={32}
                                     height={32}
                                     style={{ height: "auto" }}
-                                />
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                 <span className="text-xl font-bold text-[#689e24] font-[family-name:var(--font-comfortaa)] scale-120">
                                     NetworkUp<span className="font-normal">.io</span>
                                 </span>
@@ -141,7 +142,8 @@ export default function Footer() {
                                                             width={32}
                                                             height={32}
                                                             className="object-contain w-full h-full"
-                                                        />
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                                     </div>
                                                     <h4 className="text-[9px] sm:text-xs text-[#6b7280] font-semibold lg:font-normal leading-tight">{object.title}</h4>
                                                 </motion.div>
@@ -191,7 +193,9 @@ export default function Footer() {
                                     rel="noopener noreferrer"
                                     className="flex h-9 w-9 items-center justify-center rounded-xl border border-black bg-white hover:opacity-90 hover:-translate-y-1 shadow-sm transition-all"
                                 >
-                                    <Image src={model.icon} alt={`${model.name} Icon`} width={24} height={24} />
+                                    <Image src={model.icon} alt={`${model.name} Icon`} width={24} height={24}
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                 </a>
                             ))}
                         </div>
@@ -323,13 +327,14 @@ export default function Footer() {
                             onClick={() => setIsSidebarOpen(true)}
                         >
                             <Image
-                                src="/footer/AI-panel.png"
+                                src="/footer/AI-panel.webp"
                                 alt="AI Panel"
                                 width={125}
                                 height={125}
                                 className="w-[65px] sm:w-[90px] md:w-[110px] lg:w-[125px]"
                                 style={{ height: "auto" }}
-                            />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                         </button>
                     </div>
                 )}

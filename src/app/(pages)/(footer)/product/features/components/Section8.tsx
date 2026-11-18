@@ -35,12 +35,13 @@ export default function Section8() {
                     {/* Icon Box */}
                     <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
                         <Image
-                            src="/footer/product/feature/AIMessage.png"
+                            src="/footer/product/feature/AIMessage.webp"
                             alt="AI Message Generator"
                             width={60}
                             height={60}
                             className="w-full h-full object-contain rounded-2xl"
-                        />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                     </div>
 
                     <h2 className="text-4xl sm:text-5xl font-bold text-left text-[#1f2937] leading-tight tracking-tighter">

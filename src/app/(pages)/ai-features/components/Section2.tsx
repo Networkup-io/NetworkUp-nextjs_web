@@ -70,7 +70,8 @@ export default function Section2() {
                                     width={48}
                                     height={48}
                                     className="object-cover w-full h-full"
-                                />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                             </div>
                             <div className="flex flex-col items-start text-left leading-tight">
                                 <h4 className="font-bold text-[#191c1e] text-sm sm:text-base">Sarah Chen</h4>
@@ -98,7 +99,8 @@ export default function Section2() {
                                     width={48}
                                     height={48}
                                     className="object-cover w-full h-full"
-                                />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                             </div>
                             <div className="flex flex-col items-start text-left leading-tight">
                                 <h4 className="font-bold text-[#191c1e] text-sm sm:text-base">Marcus Thorne</h4>

@@ -70,13 +70,13 @@ export default function Section9() {
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
                     <Image
-                        src="/product/Db.png"
+                        src="/product/Db.webp"
                         alt="Lead Database"
                         width={1200}
                         height={900}
                         className="w-full h-auto object-contain rounded-2xl sm:rounded-3xl"
-                        priority
-                    />
+                  sizes="(max-width: 768px) 100vw, 600px"
+                />
                 </motion.div>
             </div>
         </section>

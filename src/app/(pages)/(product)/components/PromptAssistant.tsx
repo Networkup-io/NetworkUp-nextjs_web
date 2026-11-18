@@ -329,7 +329,8 @@ export default function PromptAssistant() {
                                                     height={40}
                                                     width={40}
                                                     style={{ height: "auto" }}
-                                                />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                                             </div>
                                         </div>
                                         <span className={`text-[10px] font-semibold tracking-wide transition-all duration-300 ${copiedIndex === index ? "text-[#a3e635] scale-105" : "text-zinc-500 group-hover:text-zinc-300"}`}>
@@ -442,7 +443,8 @@ export default function PromptAssistant() {
                                             width={24}
                                             height={24}
                                             style={{ height: "auto" }}
-                                        />
+                  sizes="(max-width: 768px) 32px, 48px"
+                />
                                     </div>
                                     <h3 className="text-base font-bold">Redirection Helper</h3>
                                 </div>

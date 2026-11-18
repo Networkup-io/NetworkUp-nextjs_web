@@ -25,12 +25,13 @@ export default function Section7() {
                             {/* Icon Box */}
                             <div className="w-13 h-13 sm:w-14 sm:h-14 flex items-center justify-center mb-6 sm:mb-8 shadow-xs">
                                 <Image
-                                    src="/footer/product/feature/Writer.png"
+                                    src="/footer/product/feature/Writer.webp"
                                     alt="Personalized Outreach"
                                     width={44}
                                     height={44}
                                     className="w-full h-full object-contain rounded-2xl"
-                                />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                             </div>
 
                             <h3 className="text-2xl sm:text-3xl font-bold text-left text-[#191c1e] tracking-tight leading-tight mb-2.5 sm:mb-3">
@@ -44,12 +45,13 @@ export default function Section7() {
 
                         {/* Image Preview Container */}
                         <Image
-                            src="/footer/product/feature/AI_Content_Studio.png"
+                            src="/footer/product/feature/AI_Content_Studio.webp"
                             alt="AI Content Studio"
                             width={1100}
                             height={800}
                             className="w-full h-auto object-contain transition-transform duration-300 hover:scale-[1.01]"
-                        />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
 
                         {/* Bottom Action Link */}
                         <div className="mt-6 pt-4 border-t border-gray-100 w-full flex items-center justify-start">
@@ -76,12 +78,13 @@ export default function Section7() {
                             {/* Icon Box */}
                             <div className="w-13 h-13 sm:w-14 sm:h-14 flex items-center justify-center mb-6 sm:mb-8 shadow-xs">
                                 <Image
-                                    src="/footer/product/feature/Inbox.png"
+                                    src="/footer/product/feature/Inbox.webp"
                                     alt="ConvoBox"
                                     width={44}
                                     height={44}
                                     className="w-full h-full object-contain rounded-2xl"
-                                />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                             </div>
 
                             <h3 className="text-2xl sm:text-3xl font-bold text-left text-[#191c1e] tracking-tight leading-tight mb-2.5 sm:mb-3">
@@ -95,12 +98,13 @@ export default function Section7() {
 
                         {/* Image Preview Container */}
                         <Image
-                            src="/footer/product/feature/Inbox-all.png"
+                            src="/footer/product/feature/Inbox-all.webp"
                             alt="ConvoBox Inbox"
                             width={1100}
                             height={800}
                             className="w-full h-auto object-contain transition-transform duration-300 hover:scale-[1.01]"
-                        />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
 
                         {/* Bottom Action Link */}
                         <div className="mt-6 pt-4 border-t border-gray-100 w-full flex items-center justify-start">

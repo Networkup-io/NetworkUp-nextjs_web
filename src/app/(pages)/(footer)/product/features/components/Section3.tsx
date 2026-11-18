@@ -19,12 +19,13 @@ export default function Section3() {
                         className="w-full md:w-[45%] md:max-w-[45%] h-auto rounded-3xl p-4 sm:p-6 md:p-8 lg:p-10 border-2 border-gray-200/80 bg-white flex items-center justify-center shadow-sm"
                     >
                         <Image
-                            src="/footer/product/feature/DiscoverPreview.png"
+                            src="/footer/product/feature/DiscoverPreview.webp"
                             alt="Discover"
                             width={1000}
                             height={1000}
                             className="w-full h-auto object-contain"
-                        />
+                  sizes="(max-width: 768px) 100vw, 600px"
+                />
                     </motion.div>
 
                     {/* Right Column: Smart Prospecting Explainer */}
@@ -38,12 +39,13 @@ export default function Section3() {
                         {/* Icon Box */}
                         <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-15 md:h-15 rounded-2xl flex items-center justify-center mb-4 sm:mb-6">
                             <Image
-                                src="/footer/product/feature/Search.png"
+                                src="/footer/product/feature/Search.webp"
                                 alt="Smart Prospecting"
                                 width={60}
                                 height={60}
                                 className="w-full h-full object-contain rounded-2xl"
-                            />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                         </div>
 
                         {/* Heading */}

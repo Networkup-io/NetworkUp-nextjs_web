@@ -115,12 +115,13 @@ export default function Section6() {
                         whileHover={{ y: -4, transition: { duration: 0.2 } }}
                     >
                         <Image
-                            src="/footer/product/feature/Files.png"
+                            src="/footer/product/feature/Files.webp"
                             alt="Audience Builder Preview"
                             width={1200}
                             height={800}
                             className="w-full h-auto object-contain"
-                        />
+                  sizes="(max-width: 768px) 100vw, 700px"
+                />
                     </motion.div>
 
                 </div>

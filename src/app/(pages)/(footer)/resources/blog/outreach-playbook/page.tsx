@@ -146,7 +146,8 @@ export default function SaaSOutreachPlaybookArticlePage() {
                                     width={40}
                                     height={40}
                                     className="w-10 h-10 rounded-full object-cover shrink-0"
-                                />
+                  sizes="(max-width: 768px) 48px, 96px"
+                />
                                 <div>
                                     <div className="text-sm sm:text-lg font-bold text-[#181d13]">
                                         Aarav Tiwari
@@ -161,13 +162,14 @@ export default function SaaSOutreachPlaybookArticlePage() {
                         {/* Right Graphic */}
                         <div className="md:col-span-5 flex items-center justify-center">
                             <Image
-                                src="/footer/resources/blog/Article5.png"
+                                src="/footer/resources/blog/Article5.webp"
                                 alt="The SaaS LinkedIn Outreach Playbook"
                                 width={500}
                                 height={380}
                                 className="w-full h-auto object-contain max-h-[380px]"
                                 priority
-                            />
+                  sizes="(max-width: 768px) 100vw, 800px"
+                />
                         </div>
                     </div>
                 </div>
